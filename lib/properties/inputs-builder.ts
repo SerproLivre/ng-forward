@@ -33,7 +33,7 @@ export default function inputsBuilder(controller, localKey, publicKey){
   let __stringKey = Symbol();
   let __oneWayKey = Symbol();
   let __twoWayKey = Symbol();
-  let __using_binding = Symbol();
+  let __using_binding = '__using_binding';
 
   Object.defineProperties(controller, {
 
